@@ -127,3 +127,37 @@
     
 }
 
+
+////////////////////////////////////////
+/// SIDE NAV BAR
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side-nav {
+
+    
+
+    &__item {
+
+    }
+
+    &__icon {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+}
+
+////////////////////////////////////////
+/// LEGAL
+
+.legal {
+    font-size: 1.2rem;
+    color: var(--color-grey-light-4);
+    text-align: center;
+    padding: 2.5rem;
+}
+

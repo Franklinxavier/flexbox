@@ -20,11 +20,14 @@
 
 .content {
     display: flex;
+    height: 60rem;
 }
 
 .sidebar {
-    background-color: var(--color-grey-dark-1);
     flex: 0 0 18%;
+    background-color: var(--color-grey-dark-1);
+
+    
 }
 
 .hotel-view {
