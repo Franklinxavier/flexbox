@@ -211,3 +211,38 @@
     padding: 2.5rem;
 }
 
+
+
+////////////////////////////////////////
+/// GALLERY
+
+
+.gallery {
+    display: flex;
+
+    &__item {
+        
+    }
+
+    &__photo{
+        width: 100%;
+    }
+}
+
+
+////////////////////////////////////////
+/// OVERVIEW
+.overview {
+    display: flex;
+
+    &__icon--star,
+    &__icon--location {
+        width: 1.75rem;
+        height: 1.75rem;
+        fill: var(--color-primary);
+    }
+
+    &__stars {
+        margin-right: auto;
+    }
+}
