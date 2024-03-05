@@ -37,6 +37,7 @@
 
 
 .details {
+    font-size: 1.4rem;
     display: flex;
     background-color: var(--color-grey-light-1);
     border-bottom: var(--line);
@@ -45,7 +46,6 @@
 
 .description {
     flex: 0 0 60%;
-    font-size: 1.4rem;
     margin-right: 4.5rem;
     background-color: #fff;
     padding: 3rem;
